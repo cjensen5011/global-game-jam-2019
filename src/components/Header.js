@@ -23,7 +23,7 @@ class Header extends React.Component {
           </p>
           <ul className="actions">
             <li>
-              <a href="#one" className="button scrolly">
+              <a href="#four" className="button scrolly">
                 Have at thee!
               </a>
             </li>

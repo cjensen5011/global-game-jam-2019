@@ -31,7 +31,7 @@ class Homepage extends React.Component {
               </header>
               <p>
                 Home is where you are happy. Loafie is happiest with her
-                friends. Her friends and himself live in the deep dark ocean.
+                friends. She and her friends live in the deep dark ocean.
                 Everyday the ocean becomes more polluted and Loafie has grown
                 tired.
               </p>
@@ -199,7 +199,10 @@ class Homepage extends React.Component {
             <p>Play our game today!</p>
             <ul className="actions uniform">
               <li>
-                <a href="#" className="button special">
+                <a
+                  href="https://francisb1996.github.io/loafie-formies-hosted/general/Loafie/#"
+                  className="button special"
+                >
                   Play Now!
                 </a>
               </li>
