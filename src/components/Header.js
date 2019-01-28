@@ -24,8 +24,11 @@ class Header extends React.Component {
           <ul className="actions">
             <li>
               <a href="#four" className="button scrolly">
-                Have at thee!
+                Play Now!
               </a>
+            </li>
+            <li>
+              <a href="https://globalgamejam.org/2019/games/loafie-formies" className="button scrolly">Visit game at Global Game Jam</a>
             </li>
           </ul>
         </div>
