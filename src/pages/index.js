@@ -16,6 +16,7 @@ import pic10 from '../assets/images/eel-frand-placeholder.png'
 import pic12 from '../assets/images/fancy-guppie-website-logo.png'
 import pic13 from '../assets/images/fancy-guppie-team-photo.jpg'
 import pic14 from '../assets/images/Devon.jpg'
+import pic15 from '../assets/images/Josh.jpg'
 
 class Homepage extends React.Component {
   render() {
