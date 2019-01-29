@@ -18,7 +18,7 @@ import pic13 from '../assets/images/fancy-guppie-team-photo.jpg'
 import pic14 from '../assets/images/Devon.jpg'
 import pic15 from '../assets/images/Josh.jpg'
 import pic20 from '../assets/images/trollface.png'
-import pic16 from '..assets/images/Brett.jpg'
+import pic16 from '../assets/images/Brett.jpg'
 
 class Homepage extends React.Component {
   render() {
