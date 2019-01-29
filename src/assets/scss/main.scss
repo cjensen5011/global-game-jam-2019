@@ -531,6 +531,15 @@ input[type='radio'] {
     border-radius: 50%;
   }
 
+  .image--cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    object-fit: cover;
+    object-position: center;
+  }
+
   &.left {
     float: left;
     padding: 0 1.5em 1em 0;
