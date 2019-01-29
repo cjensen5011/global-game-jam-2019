@@ -141,56 +141,56 @@ class Homepage extends React.Component {
             </div>
 
             <div className="col-4">
-              <span className="image circle fit">
+              <span className="image fit">
                 <img src={pic04} alt="Mike" />
               </span>
               <h3>Mike</h3>
               <p>Developer</p>
             </div>
             <div className="col-4">
-              <span className="image img-circle fit">
+              <span className="image fit">
                 <img src={pic02} alt="Kat" />
               </span>
               <h3>Kat</h3>
               <p>Artist</p>
             </div>
             <div className="col-4">
-              <span className="img-circle fit">
+              <span className="image fit">
                 <img src={pic15} alt="Josh" />
               </span>
               <h3>Josh</h3>
               <p>Developer</p>
             </div>
             <div className="col-4">
-              <span className="img-circle fit">
+              <span className="image fit">
                 <img src={pic20} alt="Chris" />
               </span>
               <h3>Chris</h3>
               <p>Artist</p>
             </div>
             <div className="col-4">
-              <span className="image img-circle fit">
+              <span className="image fit">
                 <img src={pic14} alt="Devon" />
               </span>
               <h3>Devon</h3>
               <p>Developer</p>
             </div>
             <div className="col-4">
-              <span className="image img-circle fit">
+              <span className="image fit">
                 <img src={pic17} alt="Brad" />
               </span>
               <h3>Brad</h3>
               <p>Developer</p>
             </div>
             <div className="col-4">
-              <span className="image img-circle fit">
+              <span className="image fit">
                 <img src={pic20} alt="Tyler" />
               </span>
               <h3>Tyler</h3>
               <p>Audio</p>
             </div>
             <div className="col-4">
-              <span className="image img-circle fit">
+              <span className="image fit">
                 <img src={pic16} alt="Brett" />
               </span>
               <h3>Brett</h3>
