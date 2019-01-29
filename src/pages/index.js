@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic01 from '../assets/images/loafie-profile.png'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/trollface.png'
+import pic02 from '../assets/images/Kat.jpg'
+import pic03 from '../assets/images/Josh.jpg'
+import pic04 from '../assets/images/mike.png'
 import pic05 from '../assets/images/starfish-placeholder.png'
 import pic06 from '../assets/images/jellyfish-placeholder.png'
 import pic07 from '../assets/images/squid-frand-placeholder.png'
@@ -14,6 +14,8 @@ import pic08 from '../assets/images/whale-placeholder.png'
 import pic09 from '../assets/images/turtle-placeholder.png'
 import pic10 from '../assets/images/eel-frand-placeholder.png'
 import pic12 from '../assets/images/fancy-guppie-website-logo.png'
+import pic13 from '../assets/images/fancy-guppie-team-photo.jpg'
+import pic14 from '../assets/images/Devon.jpg'
 
 class Homepage extends React.Component {
   render() {
@@ -57,37 +59,37 @@ class Homepage extends React.Component {
                 <li>
                   {/* <span className="icon style1 major fa-code" /> */}
                   <span className="icon image fit">
-                    <img src={pic05} alt="Loafie First Version" />
+                    <img src={pic05} alt="starfish" title="starfish frand" />
                   </span>
                 </li>
                 <li>
                   {/* <span className="icon style2 major fa-bolt" /> */}
                   <span className="icon image fit">
-                    <img src={pic06} alt="Jelly Fish" />
+                    <img src={pic06} alt="Jelly Fish" title="jellyfish frand" />
                   </span>
                 </li>
                 <li>
                   {/* <span className="icon style3 major fa-camera-retro" /> */}
                   <span className="icon image fit">
-                    <img src={pic07} alt="Squid" />
+                    <img src={pic07} alt="Squid" title="squid frand" />
                   </span>
                 </li>
                 <li>
                   {/* <span className="icon style4 major fa-cog" /> */}
                   <span className="icon image fit">
-                    <img src={pic08} alt="Whale" />
+                    <img src={pic08} alt="Whale" title="whale frand" />
                   </span>
                 </li>
                 <li>
                   {/* <span className="icon style5 major fa-desktop" /> */}
                   <span className="icon image fit">
-                    <img src={pic09} alt="turtle" />
+                    <img src={pic09} alt="turtle" title="turtle frand" />
                   </span>
                 </li>
                 <li>
                   {/* <span className="icon style6 major fa-calendar" /> */}
                   <span className="icon image fit">
-                    <img src={pic10} alt="eel" />
+                    <img src={pic10} alt="eel" title="eel frand" />
                   </span>
                 </li>
               </ul>
@@ -120,7 +122,7 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-12">
               <span className="image fit">
-                <img src={pic12} alt="Fancy Guppie Team" />
+                <img src={pic12} alt="Fancy Guppie Team" title="Fancy Guppie Team Logo" />
               </span>
               <header className="major">
                 <h2>Meet our Team</h2>
@@ -129,60 +131,63 @@ class Homepage extends React.Component {
                 Team Fancy Guppie is the second half of the Daugherty Business
                 Solutions Global Game Jam team.
               </p>
+              <span className="image fit">
+                <img src={pic13} alt="Fancy Guppie Team Photo" title="Fancy Guppie Team Photo" />
+              </span>
             </div>
 
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic04} alt="Mike" />
               </span>
               <h3>Mike</h3>
               <p>Developer</p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic02} alt="Kat" />
               </span>
               <h3>Kat</h3>
               <p>Artist</p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic03} alt="Josh" />
               </span>
               <h3>Josh</h3>
               <p>Developer</p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic04} alt="Chris" />
               </span>
               <h3>Chris</h3>
               <p>Artist</p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic14} alt="Devon" />
               </span>
               <h3>Devon</h3>
               <p>Developer</p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic04} alt="Brad" />
               </span>
               <h3>Brad</h3>
               <p>Developer</p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic04} alt="Tyler" />
               </span>
               <h3>Tyler</h3>
               <p>Audio</p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic04} alt="Brett" />
               </span>
               <h3>Brett</h3>
               <p>Project Manager</p>
