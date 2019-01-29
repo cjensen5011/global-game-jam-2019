@@ -17,6 +17,8 @@ import pic12 from '../assets/images/fancy-guppie-website-logo.png'
 import pic13 from '../assets/images/fancy-guppie-team-photo.jpg'
 import pic14 from '../assets/images/Devon.jpg'
 import pic15 from '../assets/images/Josh.jpg'
+import pic20 from '../assets/images/trollface.png'
+import pic16 from '..assets/images/Brett.jpg'
 
 class Homepage extends React.Component {
   render() {
@@ -160,7 +162,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="Chris" />
+                <img src={pic20} alt="Chris" />
               </span>
               <h3>Chris</h3>
               <p>Artist</p>
@@ -181,14 +183,14 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="Tyler" />
+                <img src={pic20} alt="Tyler" />
               </span>
               <h3>Tyler</h3>
               <p>Audio</p>
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="Brett" />
+                <img src={pic16} alt="Brett" />
               </span>
               <h3>Brett</h3>
               <p>Project Manager</p>
