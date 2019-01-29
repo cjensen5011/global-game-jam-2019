@@ -527,10 +527,6 @@ input[type='radio'] {
     display: block;
   }
 
-  &.cirlce {
-    border-radius: 50%;
-  }
-
   &.left {
     float: left;
     padding: 0 1.5em 1em 0;
@@ -556,6 +552,7 @@ input[type='radio'] {
     display: block;
     margin: 0 0 _size(element-margin) 0;
     width: 100%;
+    border-radius: 50%;
 
     img {
       width: 100%;
