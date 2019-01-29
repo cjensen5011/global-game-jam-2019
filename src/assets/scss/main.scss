@@ -549,13 +549,14 @@ input[type='radio'] {
   }
 
   &.circle {
-    border-radius: 50%;
+    border-radius: _size(border-radius);
     display: block;
     margin: 0 0 _size(element-margin) 0;
     width: 100%;
 
     img {
       width: 100%;
+      border-radius: 50%;
     }
   }
 
