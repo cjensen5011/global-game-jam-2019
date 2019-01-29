@@ -141,7 +141,7 @@ class Homepage extends React.Component {
             </div>
 
             <div className="col-4">
-              <span className="image--cover">
+              <span className="image circle fit">
                 <img src={pic04} alt="Mike" />
               </span>
               <h3>Mike</h3>

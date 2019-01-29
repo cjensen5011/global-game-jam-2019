@@ -527,17 +527,8 @@ input[type='radio'] {
     display: block;
   }
 
-  .img-circle {
+  &.cirlce {
     border-radius: 50%;
-  }
-
-  .image--cover {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    
-    object-fit: cover;
-    object-position: center;
   }
 
   &.left {
