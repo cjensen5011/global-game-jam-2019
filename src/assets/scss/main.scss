@@ -523,7 +523,7 @@ input[type='radio'] {
   position: relative;
 
   img {
-    border-radius: 50%;
+    border-radius: _size(border-radius);
     display: block;
   }
 
