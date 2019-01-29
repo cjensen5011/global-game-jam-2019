@@ -155,14 +155,14 @@ class Homepage extends React.Component {
               <p>Artist</p>
             </div>
             <div className="col-4">
-              <span className="image img-circle fit">
+              <span className="img-circle fit">
                 <img src={pic15} alt="Josh" />
               </span>
               <h3>Josh</h3>
               <p>Developer</p>
             </div>
             <div className="col-4">
-              <span className="image img-circle fit">
+              <span className="img-circle fit">
                 <img src={pic20} alt="Chris" />
               </span>
               <h3>Chris</h3>
