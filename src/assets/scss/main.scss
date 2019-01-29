@@ -549,7 +549,7 @@ input[type='radio'] {
   }
 
   &.circle {
-    border-radius: _size(border-radius);
+    border-radius: 50%;
     display: block;
     margin: 0 0 _size(element-margin) 0;
     width: 100%;
