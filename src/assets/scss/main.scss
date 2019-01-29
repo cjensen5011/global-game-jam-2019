@@ -517,7 +517,7 @@ input[type='radio'] {
 /* Image */
 
 .image {
-  border-radius: _size(border-radius);
+  border-radius:50%;
   border: 0;
   display: inline-block;
   position: relative;
@@ -552,7 +552,7 @@ input[type='radio'] {
     display: block;
     margin: 0 0 _size(element-margin) 0;
     width: 100%;
-    border-radius: 50%;
+
 
     img {
       width: 100%;
