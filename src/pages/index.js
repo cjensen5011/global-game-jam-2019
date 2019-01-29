@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import pic01 from '../assets/images/loafie-profile.png'
 import pic02 from '../assets/images/Kat.jpg'
 import pic03 from '../assets/images/Josh.jpg'
-import pic04 from '../assets/images/mike.png'
+import pic04 from '../assets/images/mike.jpg'
 import pic05 from '../assets/images/starfish-placeholder.png'
 import pic06 from '../assets/images/jellyfish-placeholder.png'
 import pic07 from '../assets/images/squid-frand-placeholder.png'
@@ -153,7 +153,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic03} alt="Josh" />
+                <img src={pic15} alt="Josh" />
               </span>
               <h3>Josh</h3>
               <p>Developer</p>
