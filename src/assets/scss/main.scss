@@ -999,8 +999,8 @@ button,
   }
 
   &.style2 {
-    @include dark(#344e7c);
-    background-attachment: fixed, fixed;
+    // @include dark(#344e7c);
+    // background-attachment: fixed, fixed;
     background-image: url('../images/overlay1.png'),
       url('../images/dark-blue-blur.png');
     background-size: auto, cover;
