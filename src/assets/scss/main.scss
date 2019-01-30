@@ -1011,9 +1011,9 @@ button,
 
 #header {
   @include padding(9em, 0, (0, 0, _size(element-margin), 0));
-  @include dark(#4686a0);
+  //@include dark(#4686a0);
 
-      background-attachment: fixed, fixed;
+      //background-attachment: fixed, fixed;
       background: url('../images/dark-blue-blur.png');
       background-size: auto, cover;
 
@@ -1146,7 +1146,7 @@ button,
 
 #footer {
   @include padding(6em, 0, (0, 0, _size(element-margin), 0));
-  @include dark(#4686a0);
+  // @include dark(#4686a0);
 
   background-attachment: fixed, fixed;
       background: url('../images/dark-blue-blur.png');
